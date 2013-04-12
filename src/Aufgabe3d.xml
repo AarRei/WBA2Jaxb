@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rezepte>
+    <rezept>
+        <title>Kuchen</title>
+        <zutaten>
+            <zutat>
+                <menge>3</menge>
+                <art>Eier</art>
+            </zutat>
+            <zutat>
+                <menge>200g</menge>
+                <art>Butter</art>
+            </zutat>
+            <zutat>
+                <menge>250ml</menge>
+                <art>Milch</art>
+            </zutat>
+            <zutat>
+                <menge>150g</menge>
+                <art>Mehl</art>
+            </zutat>
+            <zutat>
+                <menge>Priese</menge>
+                <art>Salz</art>
+            </zutat>
+            <zutat>
+                <menge>1 TL</menge>
+                <art>Saffran</art>
+            </zutat>
+        </zutaten>
+        <zubereitung>
+            <portionen>8</portionen>
+            <arbeitszeit>30 Min</arbeitszeit>
+            <schwierigkeit>normal</schwierigkeit>
+            <brennwert>270kcal</brennwert>
+            <schritt>Eier aufschlagen</schritt>
+            <schritt>Alles in eine Schüssel und umrühren.</schritt>
+            <schritt>Backen.</schritt>
+        </zubereitung>
+        <kommentare>
+            <kommentar>Schmeckt nach Kuchen.</kommentar>
+        </kommentare>
+    </rezept>
+    <rezept>
+        <title>Pizzateig</title>
+        <zutaten>
+            <zutat>
+                <menge>1/2 Block</menge>
+                <art>Hefe</art>
+            </zutat>
+            <zutat>
+                <menge>300g</menge>
+                <art>Mehl</art>
+            </zutat>
+            <zutat>
+                <menge>1 Tasse</menge>
+                <art>Wasser</art>
+            </zutat>
+            <zutat>
+                <menge>1 EL</menge>
+                <art>Olivenöl</art>
+            </zutat>
+        </zutaten>
+        <zubereitung>
+            <portionen>4</portionen>
+            <arbeitszeit>10 Min</arbeitszeit>
+            <schwierigkeit>einfach</schwierigkeit>
+            <brennwert>230kj</brennwert>
+            <schritt>Alles in eine Schüssel und umrühren.</schritt>
+            <schritt>Gehen lassen.</schritt>
+        </zubereitung>
+        <kommentare>
+            <kommentar>Irgendwie trocken.</kommentar>
+        </kommentare>
+    </rezept>
+</rezepte>

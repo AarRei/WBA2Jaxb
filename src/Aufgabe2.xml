@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form>
+	<person typ="leiter">
+	    <vorname>Hans</vorname>
+	    <nachname>Anderson</nachname>
+	    <email>hansa@email.com</email>
+	    <geburtsdatum>01.01.1970</geburtsdatum>
+	    <erfahrung>Profi</erfahrung>
+	    <schlagzeug>vorhanden</schlagzeug>
+	    <anmerkungen>Wichtig für meine Gruppe ist gutes Essen</anmerkungen>
+    </person>
+    <person typ="mitglied">
+    	<vorname>Anette</vorname>
+	    <nachname>Peterson</nachname>
+	    <email>apeterson@mooglegail.com</email>
+	    <geburtsdatum>21.12.1990</geburtsdatum>
+	    <erfahrung>Amateur</erfahrung>
+	    <schlagzeug>vorhanden</schlagzeug>
+	    <anmerkungen></anmerkungen>
+    </person>
+</form>

@@ -1,0 +1,25 @@
+{
+  "form": {
+    "person": [
+      {
+        "-typ": "leiter",
+        "vorname": "Hans",
+        "nachname": "Anderson",
+        "email": "hansa@email.com",
+        "geburtsdatum": "01.01.1970",
+        "erfahrung": "Profi",
+        "schlagzeug": "vorhanden",
+        "anmerkungen": "Wichtig für meine Gruppe ist gutes Essen"
+      },
+      {
+        "-typ": "mitglied",
+        "vorname": "Anette",
+        "nachname": "Peterson",
+        "email": "apeterson@mooglegail.com",
+        "geburtsdatum": "21.12.1990",
+        "erfahrung": "Amateur",
+        "schlagzeug": "vorhanden"
+      }
+    ]
+  }
+}

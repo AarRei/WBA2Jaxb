@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <xsd:element name="title" type="xsd:string"></xsd:element>
+
+    <xsd:element name="rezepte">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="rezept" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="rezept">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element ref="title"></xsd:element>
+    			<xsd:element ref="zutaten"></xsd:element>
+    			<xsd:element ref="zubereitung"></xsd:element>
+    			<xsd:element ref="kommentare"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="kommentare">
+    	<xsd:complexType>
+    		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+    			<xsd:element name="kommentar" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="zutaten">
+    	<xsd:complexType>
+    		<xsd:sequence minOccurs="1" maxOccurs="unbounded">
+    			<xsd:element ref="zutat" minOccurs="1" maxOccurs="unbounded"></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="zutat">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="menge" type="xsd:string"></xsd:element>
+    			<xsd:element name="art" type="xsd:string"></xsd:element>
+    		</xsd:sequence>	
+    	</xsd:complexType>
+    </xsd:element>
+    
+    <xsd:element name="schritt" type="xsd:string"></xsd:element>
+
+    <xsd:element name="zubereitung">
+    	<xsd:complexType>
+    		<xsd:sequence>
+    			<xsd:element name="portionen" type="xsd:string"></xsd:element>
+    			<xsd:element name="arbeitszeit" type="xsd:string"></xsd:element>
+    			<xsd:element name="schwierigkeit" type="xsd:string"></xsd:element>
+    			<xsd:element name="brennwert" type="xsd:string"></xsd:element>
+    			<xsd:element ref="schritt" minOccurs="1" maxOccurs="unbounded" ></xsd:element>
+    		</xsd:sequence>
+    	</xsd:complexType>
+    </xsd:element>
+</xsd:schema>
